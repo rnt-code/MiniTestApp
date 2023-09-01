@@ -10,7 +10,17 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="base drivers" Type="Folder" URL="../base drivers">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="dependencies" Type="Folder" URL="../dependencies">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="VISA Resources" Type="Folder" URL="../VISA Resources">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="mini_test_app.vi" Type="VI" URL="../mini_test_app.vi"/>
+		<Item Name="VISA_config.ini" Type="Document" URL="../VISA_config.ini"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -54,33 +64,6 @@
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="19xx2_Close_port.vi" Type="VI" URL="../base drivers/19xx2_Close_port.vi"/>
-			<Item Name="19xx2_Get_STATUS.vi" Type="VI" URL="../base drivers/19xx2_Get_STATUS.vi"/>
-			<Item Name="19xx2_Open_port.vi" Type="VI" URL="../base drivers/19xx2_Open_port.vi"/>
-			<Item Name="1905x Series Delay.vi" Type="VI" URL="../base drivers/1905x Series Delay.vi"/>
-			<Item Name="1905x Series Start.vi" Type="VI" URL="../base drivers/1905x Series Start.vi"/>
-			<Item Name="1905x Series Stop.vi" Type="VI" URL="../base drivers/1905x Series Stop.vi"/>
-			<Item Name="19052 Get_instrument_ID.vi" Type="VI" URL="../base drivers/19052 Get_instrument_ID.vi"/>
-			<Item Name="19052 Get_Result_ALL_JUDGMENT.vi" Type="VI" URL="../base drivers/19052 Get_Result_ALL_JUDGMENT.vi"/>
-			<Item Name="19052_rs232_settings.vi" Type="VI" URL="../VISA Resources/dependencies/19052_rs232_settings.vi"/>
-			<Item Name="19572 Get_instrument_ID.vi" Type="VI" URL="../base drivers/19572 Get_instrument_ID.vi"/>
-			<Item Name="19572_rs232_settings.vi" Type="VI" URL="../VISA Resources/dependencies/19572_rs232_settings.vi"/>
-			<Item Name="close_visa_resources.vi" Type="VI" URL="../VISA Resources/close_visa_resources.vi"/>
-			<Item Name="get_19052_COM_settings.vi" Type="VI" URL="../VISA Resources/dependencies/get_19052_COM_settings.vi"/>
-			<Item Name="get_19572_COM_settings.vi" Type="VI" URL="../VISA Resources/dependencies/get_19572_COM_settings.vi"/>
-			<Item Name="get_and_insert_SN.vi" Type="VI" URL="../dependencies/get_and_insert_SN.vi"/>
-			<Item Name="get_GPIB_settings.vi" Type="VI" URL="../VISA Resources/dependencies/get_GPIB_settings.vi"/>
-			<Item Name="get_interface_type.vi" Type="VI" URL="../VISA Resources/dependencies/get_interface_type.vi"/>
-			<Item Name="get_visa_resources_data.ctl" Type="VI" URL="../VISA Resources/Type Definitions/get_visa_resources_data.ctl"/>
-			<Item Name="get_visa_resources_states.ctl" Type="VI" URL="../VISA Resources/Type Definitions/get_visa_resources_states.ctl"/>
-			<Item Name="gpib_build_visa_resource_name.vi" Type="VI" URL="../VISA Resources/dependencies/gpib_build_visa_resource_name.vi"/>
-			<Item Name="open_visa_resources.vi" Type="VI" URL="../VISA Resources/open_visa_resources.vi"/>
-			<Item Name="rs232_build_visa_resource_name.vi" Type="VI" URL="../VISA Resources/dependencies/rs232_build_visa_resource_name.vi"/>
-			<Item Name="rs232_string_params_to_ring.vi" Type="VI" URL="../VISA Resources/dependencies/rs232_string_params_to_ring.vi"/>
-			<Item Name="split_and_queue_string.vi" Type="VI" URL="../dependencies/split_and_queue_string.vi"/>
-			<Item Name="split_and_queue_string_at_front.vi" Type="VI" URL="../dependencies/split_and_queue_string_at_front.vi"/>
-			<Item Name="split_state_and_arguments.vi" Type="VI" URL="../base drivers/split_state_and_arguments.vi"/>
-			<Item Name="string_to_array.vi" Type="VI" URL="../dependencies/string_to_array.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
