@@ -16,10 +16,12 @@
 		<Item Name="dependencies" Type="Folder" URL="../dependencies">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Type Definitions" Type="Folder" URL="../Type Definitions">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="VISA Resources" Type="Folder" URL="../VISA Resources">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Highway_Data_Control.ctl" Type="VI" URL="../Type Definitions/Highway_Data_Control.ctl"/>
 		<Item Name="mini_test_app.vi" Type="VI" URL="../mini_test_app.vi"/>
 		<Item Name="VISA_config.ini" Type="Document" URL="../VISA_config.ini"/>
 		<Item Name="Dependencies" Type="Dependencies">
