@@ -60,10 +60,15 @@
 		<Item Name="Type Definitions" Type="Folder">
 			<Item Name="UI Data.ctl" Type="VI" URL="../controls/UI Data.ctl"/>
 		</Item>
+		<Item Name="Hi-Pot TestI Data.ctl" Type="VI" URL="../controls/Hi-Pot TestI Data.ctl"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+		<Item Name="VISA_config.ini" Type="Document" URL="../VISA_config.ini"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
+				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
@@ -85,6 +90,9 @@
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
@@ -94,8 +102,34 @@
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
+				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="19xx2_Close_port.vi" Type="VI" URL="../../base drivers/19xx2_Close_port.vi"/>
+			<Item Name="19xx2_Get_STATUS.vi" Type="VI" URL="../../base drivers/19xx2_Get_STATUS.vi"/>
+			<Item Name="19xx2_Open_port.vi" Type="VI" URL="../../base drivers/19xx2_Open_port.vi"/>
+			<Item Name="1905x Series Delay.vi" Type="VI" URL="../../base drivers/1905x Series Delay.vi"/>
+			<Item Name="1905x Series Start.vi" Type="VI" URL="../../base drivers/1905x Series Start.vi"/>
+			<Item Name="1905x Series Stop.vi" Type="VI" URL="../../base drivers/1905x Series Stop.vi"/>
+			<Item Name="19052 Get_instrument_ID.vi" Type="VI" URL="../../base drivers/19052 Get_instrument_ID.vi"/>
+			<Item Name="19052 Get_Result_ALL_JUDGMENT.vi" Type="VI" URL="../../base drivers/19052 Get_Result_ALL_JUDGMENT.vi"/>
+			<Item Name="19052_rs232_settings.vi" Type="VI" URL="../../VISA Resources/dependencies/19052_rs232_settings.vi"/>
+			<Item Name="19572 Get_instrument_ID.vi" Type="VI" URL="../../base drivers/19572 Get_instrument_ID.vi"/>
+			<Item Name="19572_rs232_settings.vi" Type="VI" URL="../../VISA Resources/dependencies/19572_rs232_settings.vi"/>
+			<Item Name="close_visa_resources.vi" Type="VI" URL="../../VISA Resources/close_visa_resources.vi"/>
+			<Item Name="get_19052_COM_settings.vi" Type="VI" URL="../../VISA Resources/dependencies/get_19052_COM_settings.vi"/>
+			<Item Name="get_19572_COM_settings.vi" Type="VI" URL="../../VISA Resources/dependencies/get_19572_COM_settings.vi"/>
+			<Item Name="get_and_insert_SN.vi" Type="VI" URL="../../dependencies/get_and_insert_SN.vi"/>
+			<Item Name="get_GPIB_settings.vi" Type="VI" URL="../../VISA Resources/dependencies/get_GPIB_settings.vi"/>
+			<Item Name="get_interface_type.vi" Type="VI" URL="../../VISA Resources/dependencies/get_interface_type.vi"/>
+			<Item Name="get_visa_resources_data.ctl" Type="VI" URL="../../VISA Resources/Type Definitions/get_visa_resources_data.ctl"/>
+			<Item Name="get_visa_resources_states.ctl" Type="VI" URL="../../VISA Resources/Type Definitions/get_visa_resources_states.ctl"/>
+			<Item Name="gpib_build_visa_resource_name.vi" Type="VI" URL="../../VISA Resources/dependencies/gpib_build_visa_resource_name.vi"/>
+			<Item Name="open_visa_resources.vi" Type="VI" URL="../../VISA Resources/open_visa_resources.vi"/>
+			<Item Name="rs232_build_visa_resource_name.vi" Type="VI" URL="../../VISA Resources/dependencies/rs232_build_visa_resource_name.vi"/>
+			<Item Name="rs232_string_params_to_ring.vi" Type="VI" URL="../../VISA Resources/dependencies/rs232_string_params_to_ring.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Main Application" Type="EXE">
