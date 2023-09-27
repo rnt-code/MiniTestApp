@@ -24,6 +24,14 @@ y la PC local.
 Error: -1073807304
 Uno o ambos instrumentos pueden estar apagados o estar reiniciándose.
 ===========================================
+Error: -1073807312
+Es posible que haya apretado el botón Exit o también que haya intentado cerrar el panel frontal
+mientras el sistema estaba realizando una prueba.
+===========================================
+Error: -1073803838
+Revise la conexión de la interfaz USB-RS232. Inesperadamente perdió la 
+comunicación con la PC local.
+===========================================
 Error: -1073807339
 Es posible que uno o ambos instrumentos estén apagados o desconectados.
 ===========================================
@@ -44,6 +52,7 @@ Si la desconexión ocurrió durante la prueba de Hi-Pot, es posible que
 haya habido un fenómeno de ARCO durante la prueba, la detección de
 ARCO debería estar activada en el instrumento de Hi-Pot.
 ===========================================
+Otros problemas detectados:
 
 En algunos casos la interfaz de usurio puede quedar congelada ante la desconexión de la interfaz
 SERIAL del instrumento, sin que aparezca un mensaje de error. En estos casos, pruebe desconectar y 
@@ -56,8 +65,10 @@ el adaptador USB-SERIE RS232.
 
 
 
+
+===========================================
 Warning. This app is a proof of concept and has no other purpose, 
-it is not intended for production. Likewise, it has no error handling. 
+it is not intended for production.  
 Use at your own risk.
 
 
