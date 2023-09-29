@@ -62,6 +62,8 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="mini_test_app_serial_gpib.vi" Type="VI" URL="../mini_test_app_serial_gpib.vi"/>
+		<Item Name="test_definitions_module.vi" Type="VI" URL="../test_definitions_module.vi"/>
+		<Item Name="the_greatest.vi" Type="VI" URL="../the_greatest.vi"/>
 		<Item Name="VISA_config.ini" Type="Document" URL="../VISA_config.ini"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
