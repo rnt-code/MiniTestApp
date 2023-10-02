@@ -10,49 +10,19 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="19052 Get Total Test Time" Type="Folder">
-			<Item Name="base drivers" Type="Folder">
-				<Item Name="19052 Get_DWLL_time.vi" Type="VI" URL="../19052 Get Total Test Time/base drivers/19052 Get_DWLL_time.vi"/>
-				<Item Name="19052 Get_FALL_time.vi" Type="VI" URL="../19052 Get Total Test Time/base drivers/19052 Get_FALL_time.vi"/>
-				<Item Name="19052 Get_PA_TIME.vi" Type="VI" URL="../19052 Get Total Test Time/base drivers/19052 Get_PA_TIME.vi"/>
-				<Item Name="19052 Get_RAMP_time.vi" Type="VI" URL="../19052 Get Total Test Time/base drivers/19052 Get_RAMP_time.vi"/>
-				<Item Name="19052 Get_step_MODE.vi" Type="VI" URL="../19052 Get Total Test Time/base drivers/19052 Get_step_MODE.vi"/>
-				<Item Name="19052 Get_test_STEPS_number.vi" Type="VI" URL="../19052 Get Total Test Time/base drivers/19052 Get_test_STEPS_number.vi"/>
-				<Item Name="19052 Get_test_TIME.vi" Type="VI" URL="../19052 Get Total Test Time/base drivers/19052 Get_test_TIME.vi"/>
-			</Item>
-			<Item Name="dependencies" Type="Folder">
-				<Item Name="get_19052_AC_step_test_time.vi" Type="VI" URL="../19052 Get Total Test Time/dependencies/get_19052_AC_step_test_time.vi"/>
-				<Item Name="get_19052_DC_step_test_time.vi" Type="VI" URL="../19052 Get Total Test Time/dependencies/get_19052_DC_step_test_time.vi"/>
-				<Item Name="get_19052_IR_step_test_time.vi" Type="VI" URL="../19052 Get Total Test Time/dependencies/get_19052_IR_step_test_time.vi"/>
-				<Item Name="get_19052_PA_step_test_time.vi" Type="VI" URL="../19052 Get Total Test Time/dependencies/get_19052_PA_step_test_time.vi"/>
-			</Item>
-			<Item Name="Type Definitions" Type="Folder">
-				<Item Name="ac_dc_ir_control.ctl" Type="VI" URL="../19052 Get Total Test Time/Type Definitions/ac_dc_ir_control.ctl"/>
-				<Item Name="dc_ir_control.ctl" Type="VI" URL="../19052 Get Total Test Time/Type Definitions/dc_ir_control.ctl"/>
-				<Item Name="get_19052_AC_step_time_states.ctl" Type="VI" URL="../19052 Get Total Test Time/Type Definitions/get_19052_AC_step_time_states.ctl"/>
-				<Item Name="get_19052_DC_IR_step_time_states.ctl" Type="VI" URL="../19052 Get Total Test Time/Type Definitions/get_19052_DC_IR_step_time_states.ctl"/>
-				<Item Name="get_19052_step_time_states.ctl" Type="VI" URL="../19052 Get Total Test Time/Type Definitions/get_19052_step_time_states.ctl"/>
-				<Item Name="get_19052_total_test_time_states.ctl" Type="VI" URL="../19052 Get Total Test Time/Type Definitions/get_19052_total_test_time_states.ctl"/>
-			</Item>
-			<Item Name="Get_19052_total_test_time.vi" Type="VI" URL="../19052 Get Total Test Time/Get_19052_total_test_time.vi"/>
+		<Item Name="19052 Get Total Test Time" Type="Folder" URL="../19052 Get Total Test Time">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="19572 Get Total Test Time" Type="Folder">
-			<Item Name="base drivers" Type="Folder">
-				<Item Name="19572 Get_test_TIME.vi" Type="VI" URL="../19572 Get Total Test Time/base drivers/19572 Get_test_TIME.vi"/>
-			</Item>
-			<Item Name="dependencies" Type="Folder">
-				<Item Name="get_19572_GB_step_test_time.vi" Type="VI" URL="../19572 Get Total Test Time/dependencies/get_19572_GB_step_test_time.vi"/>
-			</Item>
-			<Item Name="Type Definitions" Type="Folder">
-				<Item Name="get_19572_step_time_states.ctl" Type="VI" URL="../19572 Get Total Test Time/Type Definitions/get_19572_step_time_states.ctl"/>
-				<Item Name="get_19572_total_test_time_states.ctl" Type="VI" URL="../19572 Get Total Test Time/Type Definitions/get_19572_total_test_time_states.ctl"/>
-			</Item>
-			<Item Name="Get_19572_total_test_time.vi" Type="VI" URL="../19572 Get Total Test Time/Get_19572_total_test_time.vi"/>
+		<Item Name="19572 Get Total Test Time" Type="Folder" URL="../19572 Get Total Test Time">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="base drivers" Type="Folder" URL="../base drivers">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="dependencies" Type="Folder" URL="../dependencies">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="Test definition module" Type="Folder" URL="../Test definition module">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Type Definitions" Type="Folder" URL="../Type Definitions">
@@ -61,13 +31,7 @@
 		<Item Name="VISA Resources" Type="Folder" URL="../VISA Resources">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="case1_selector.vi" Type="VI" URL="../case1_selector.vi"/>
-		<Item Name="case2_selector.vi" Type="VI" URL="../case2_selector.vi"/>
-		<Item Name="compare_T1_&amp;_T2.vi" Type="VI" URL="../compare_T1_&amp;_T2.vi"/>
 		<Item Name="mini_test_app_serial_gpib.vi" Type="VI" URL="../mini_test_app_serial_gpib.vi"/>
-		<Item Name="overlap_calculator.vi" Type="VI" URL="../overlap_calculator.vi"/>
-		<Item Name="test_definitions_module.vi" Type="VI" URL="../test_definitions_module.vi"/>
-		<Item Name="the_greatest.vi" Type="VI" URL="../the_greatest.vi"/>
 		<Item Name="VISA_config.ini" Type="Document" URL="../VISA_config.ini"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -112,7 +76,6 @@
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="19572 Get_step_MODE.vi" Type="VI" URL="../19572 Get Total Test Time/base drivers/19572 Get_step_MODE.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
