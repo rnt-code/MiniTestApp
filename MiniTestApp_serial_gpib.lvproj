@@ -10,19 +10,10 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="19052 Get Total Test Time" Type="Folder" URL="../19052 Get Total Test Time">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
-		<Item Name="19572 Get Total Test Time" Type="Folder" URL="../19572 Get Total Test Time">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
 		<Item Name="base drivers" Type="Folder" URL="../base drivers">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="dependencies" Type="Folder" URL="../dependencies">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
-		<Item Name="Test definition module" Type="Folder" URL="../Test definition module">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Type Definitions" Type="Folder" URL="../Type Definitions">
@@ -33,8 +24,6 @@
 		</Item>
 		<Item Name="config.ini" Type="Document" URL="../config.ini"/>
 		<Item Name="mini_test_app_serial_gpib.vi" Type="VI" URL="../mini_test_app_serial_gpib.vi"/>
-		<Item Name="mini_test_app_serial_gpib_(selectable test mode).vi" Type="VI" URL="../mini_test_app_serial_gpib_(selectable test mode).vi"/>
-		<Item Name="stopwatch kernel2.vi" Type="VI" URL="../Stopwatch/stopwatch kernel2.vi"/>
 		<Item Name="VISA_config.ini" Type="Document" URL="../VISA_config.ini"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -70,7 +59,6 @@
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
-				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
@@ -80,9 +68,6 @@
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="stop_watch_w_feedback_node1.vi" Type="VI" URL="../Stopwatch/stop_watch_w_feedback_node1.vi"/>
-			<Item Name="stop_watch_w_feedback_node2.vi" Type="VI" URL="../Stopwatch/stop_watch_w_feedback_node2.vi"/>
-			<Item Name="stopwatch kernel1.vi" Type="VI" URL="../Stopwatch/stopwatch kernel1.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
